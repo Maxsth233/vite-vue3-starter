@@ -10,7 +10,7 @@ export default defineComponent({
     axios
       .get('/users/XPoet')
       .then((res) => {
-        console.log('res: ', res)
+        console.log('res: ', res);
       })
       .catch((err) => {
         console.log('err: ', err)
